@@ -8,3 +8,4 @@ Simple AJAX tests with the Ruby Camping framework.
 ## Installation
 
    $ sudo gem install camping mofo json
+   $ sudo apt-get install camping

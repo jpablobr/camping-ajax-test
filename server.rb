@@ -5,7 +5,7 @@
 # with Javascript and Ajax.
 
 require 'rubygems'
-require_gem 'camping', '>= 1.5'
+#require_gem 'camping', '>= 1.5'
 require 'camping'
 
 Camping.goes :Server
