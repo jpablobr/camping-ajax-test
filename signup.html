@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Javascript Demo</title>
+    <link rel="stylesheet" href="stylesheets/application.css" type="text/css" media="screen" charset="utf-8">
+    <script src="javascripts/prototype.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/effects.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/lowpro.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/firebug/firebug.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/application.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    
+    <h1>Signup!</h1>
+    
+    <form action="/signup" method="post" id="signup">
+      
+      <div class="form_element">
+        <label for="username">
+          Username
+          <input type="text" name="username" id="username" class="textfield" />
+        </label>
+        <div id="username_check" class="tooltip" style="display: none;"></div>
+      </div>
+      
+      <label for="street-address">
+        Street Address
+        <input type="text" name="street_address" id="street-address" />
+      </label>
+
+      <label for="postal-code">
+        Postal Code
+        <input type="text" name="postal_code" id="postal-code" class="textfield" />
+      </label>
+
+      <label>
+        City, State
+        <div>
+          <span id="locality">-</span>
+          <span id="region">-</span>
+        </div>
+      </label>
+      
+      <p>
+        <input type="submit" name="submit" value="Submit" />
+      </p>
+      
+    </form>
+    
+  </body>
+</html>

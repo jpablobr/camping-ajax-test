@@ -1,0 +1,72 @@
+/* Stylesheet */
+
+* {
+  margin: 0; padding: 0;
+  }
+
+body {
+  margin-left: 1em;
+  }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
+  }
+
+h1 {
+  font-size: 2em;
+  line-height: 1.5em;
+  }
+
+p {
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
+  }
+  
+#busy {
+  position: absolute;
+  top: 0;
+  left: 0;
+/*  width: 100%;*/
+
+  padding: 0.2em 10em 0.2em 0.2em;
+
+  color: white;
+  font-weight: bold;
+  background-color: #ff43a7;
+  }
+
+ul li {
+  margin-left: 1em;
+  }
+
+label {
+  display: block;
+  position: relative;
+  color: #999;
+  }  
+
+  label input {
+    display: block;
+    margin-bottom: 1em;
+    }  
+
+  label input {
+    margin-top: 5px;
+    }
+
+  label input.error {
+    border: 2px solid red;
+    }
+
+div.form_element {
+  position: relative;
+  }
+
+  div.form_element div.tooltip {
+    position: absolute;
+    left: 12em;
+    top: 0;
+    width: 165px;
+    padding: 1em 20px 1em 30px;
+    background: transparent url(/images/tooltip.png) no-repeat 0 -10px;
+    }
