@@ -1,5 +1,3 @@
-# Prototypejs - Camping - AJAX tests
-
 Simple AJAX tests with the Ruby Camping framework.
 
 
